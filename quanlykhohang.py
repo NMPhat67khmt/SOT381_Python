@@ -1,0 +1,6 @@
+so_luong=[15, 8, 22, 5, 12, 3]
+ten_san_pham=["Áo", "Quần", "Giày", "Túi", "Mũ", "Ví"]
+print("Các sản phẩm cần nhập thêm:")   
+for i in range(len(so_luong)):
+ if so_luong[i] < 10:
+    print(ten_san_pham[i])
