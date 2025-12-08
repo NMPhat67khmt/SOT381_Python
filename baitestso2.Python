@@ -1,0 +1,5 @@
+n=int(input("nhap so dau tien:"))
+if n % 3 == 0 and n % 5 == 0:
+  print("chia duoc")
+else:
+ print("khong chia duoc")
